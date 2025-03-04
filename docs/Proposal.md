@@ -1,57 +1,79 @@
-Senior Project Proposal (Replace with Project Name)
+Project χαριτόω
 ===================================================
 
-**Student Name**: Ada Lovelace (put your name here followed by two spaces)  
-**Degree and Major**: B.S. in Cybersecurity (put your name here followed by two spaces)  
-**Project Advisor Name**: Dr. Faulkner (put your name here followed by two spaces)  
-**Expected Graduation Date**: May 2040 (put the correct month and day here)
+**Student Name**: Peter jackson Link, III  
+**Degree and Major**: B.S. in Computer Science & B.A. in Biblical Languages  
+**Project Advisor Name**: Dr. Sean Hayes   
+**Expected Graduation Date**: May 2026
 
 
 Problem Statement
 -----------------
 
-The problem statement goes here.
+In Biblical Studies, there are many helpful scholarly resources that can be more easily used with the aid of computer interfaces. Ideally, it would be possible to integrate the ~2,000 years of historical biblical commentary and original language manuscripts in a way that is accessible and free for the layperson. This would help in people’s personal studies, since they could see more clearly the original meaning and semantics of words in the text and see how the Church has wrestled with certain passages for almost two millenia.
+
+Sadly, the very best tools for biblical studies are currently quite expensive. They are only feasible for people who make biblical study their vocation, such as pastors and scholars. I propose to build a free platform that allows a layperson to easily study the scriptures with the help of original language studies and historical commentaries.
 
 
 Project Description
 -------------------
 
-The project description goes here.
+A web application that allows users to read the Bible while allowing easy utilization of public-domain resources and commentaries.
 
 
 Proposed Implementation Language(s) 
 -----------------------------------
 
-Languages go here.
+ - Common Lisp
+ - HTML indirectly
+ - CSS indirectly
+ - JavaScript indirectly
 
 
 Libraries, Packages, Development Kits, etc. to be used in the proposed implementation languages(s)
 --------------------------------------------------------------------------------------------------
 
-The supporting libraries go here.
+ - Ningle
+ - Spinneret
+ - Parenscript
+ - Alexandria
+ - CSS-lite
+ - HTMX
+ - Clack/Lack
+ - Hunchentoot
+ - Woo
+ - cl-ppcre
+ - Ironclad
+ - Datafly
+ - SXQL
 
 
 Additional Software/Equipment Needed
 ------------------------------------
 
-List any hardware needed and software (e.g., your IDE).
+ - Emacs
+ - Vi
+ - OpenBSD
+ - GNU/Linux
+ - Cloudflare
+ - Linode
 
 Personal Motivation
 -------------------
 
-Personal motivation goes here.
+This will allow me to integrate my studies from my other major with my Computer Science skills. It will also allow me to learn more about building custom web frameworks with Common Lisp.
 
 Outline of Future Research Efforts
 ----------------------------------
 
-(What do you need to learn or figure out to complete this project? What tasks are you going to do the do that?)
+ - Learn more on how to optimize Lisp programs
+ - Finish widget capabilities for my framework
+ - Build a bunch of sample apps and turn repetitions into abstractions
 
 Schedule
 --------
 
-(Update the dates and add your tasks by replacing the examples. Remove this note.)
-
-*   Spring 2039 - CSCI 497
+*   Spring 2025 - CSCI 497
     -   January 26 - 
     -   February 9 - 
     -   February 23 - 
@@ -59,20 +81,20 @@ Schedule
     -   March 22 - Send First-Draft of the Requirements Document to advisor for feedback
     -   April 5 - 
 
-*   Summer 2040 - Independent/Optional Project Work
-    -   June 1 - 
+*   Summer 2025 - Independent/Optional Project Work
+    -   June 1 - Get the framework fully complete
 
-*   Fall 2039 - CSCI 498
+*   Fall 2026 - CSCI 498
     -   October 20 - 
     -   October 27 - 
-    -   November 3 - 
+    -   November 3 - Finish main features
     -   November 10 - 
-    -   November 17 - 
-    -   November 20 - 
+    -   November 17 - Finish makefile for complete binary
+    -   November 20 - Set up deployment procedure
 
 *   Spring 2040 - CSCI 499 (more detail will be added here once you are closer)
     -   Weeks 1-4 - Implement test plan
     -   Week 5 - Evaluate test results
     -   Week 6-10 - Apply updates and bug fixes based on the results
-    -   Week 8 - Computer the first 4 chapters of the defense documentation.
+    -   Week 8 - Complete the first 4 chapters of the defense documentation.
     -   ...
