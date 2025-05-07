@@ -1,6 +1,6 @@
-# Project Title
+# Project χαριτόω
 
-Brief Project Description
+A next-generation bible study application with public-domain resources.
 
 ## Compile/Deploy
 
