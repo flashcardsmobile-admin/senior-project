@@ -26,11 +26,11 @@ Requirement #2
 Requirement #3
 --------------
 
-**Description:** The product shall allow the user to click on a word in the text and see the parsing and lexical information in the original language.
+**Description:** The product shall allow the user to select a verse and see the parsing and lexical information in the original language.
 
 **Rationale:** This feature is present in Logos/Concordance.
 
-**Fit Criterion:** The feature shall present the word, its lemma, its parsing, and its lexicon entry for a word when it is clicked.
+**Fit Criterion:** The feature shall present the words in the verse with lemmas, parsings, and lexicon entries when the verse is selected for more details.
 
 **Priority:** 2
 
@@ -48,11 +48,11 @@ Requirement #4
 Requirement #5
 --------------
 
-**Description:** The product shall render its resources as virtual windows inside its screen space.
+**Description:** The product shall render its resources as a hypertext document using standard HTML features.
 
 **Rationale:** This will allow the user to switch between resources trivially.
 
-**Fit Criterion:** It should mimic the behavior of a window manager such as fvwm2 or i3.
+**Fit Criterion:** Extra interactions via JavaScript should be minimized.
 
 **Priority:** 1
 
@@ -180,22 +180,22 @@ Requirement #16
 Requirement #17
 --------------
 
-**Description:** The product shall allow the user to select a background image for the virtual desktop in the application for a specific browser.
+**Description:** The product shall allow the user to customize the font settings of the text for their user account.
 
 **Rationale:** This is a convenience for the user.
 
-**Fit Criterion:** The product will allow the background image of the virtual desktop to be changed in a specific browser.
+**Fit Criterion:** The product will allow the font family and size to be selected from a list and saved to the user's account information.
 
 **Priority:** 4
 
 Requirement #18
 --------------
 
-**Description:** The product shall allow the user to save the current desktop state to the browser.
+**Description:** The product shall allow the user to modify text color and background color for their user account.
 
-**Rationale:** This is helpful to resume studying for multiple days.
+**Rationale:** This is a convenience for the user and gives them something to fiddle with to increase percieved investment in the platform.
 
-**Fit Criterion:** The product will save the state of the current virtual windows to the web browser and rehydrate from that state upon next load.
+**Fit Criterion:** The product will save the user's preference.
 
 **Priority:** 2
 
@@ -213,21 +213,32 @@ Requirement #19
 Requirement #20
 --------------
 
-**Description:** The product shall allow logged-in users to change the default text color and text background.
+**Description:** The product shall allow logged-in users to select from a variety of public-domain English translations.
 
-**Rationale:** This is a convenience feature.
+**Rationale:** This will allow the user to compare the opinions of a variety of translators instead of merely relying on one.
 
-**Fit Criterion:** The product will save this setting and apply it to the CSS rules for that user.
+**Fit Criterion:** The product will save a variety of translations and allow them to be presented as hypertext.
 
-**Priority:** 5
+**Priority:** 1
 
 Requirement #21
 --------------
 
-**Description:** The product shall allow logged-in users to change the default window border colors.
+**Description:** The product shall query CCEL for new information and pull it into the database during off-hours.
 
-**Rationale:** This is a convenience feature.
+**Rationale:** This will allow for the system to automatically maintain itself.
 
-**Fit Criterion:** The product will save this setting and apply it to the CSS rules for that user.
+**Fit Criterion:** The product system will pull in new ThML files and parse them in a manner where evaluation errors may be recovered from with a report of files requiring manual intervention.
 
 **Priority:** 2
+
+Requirement #22
+--------------
+
+**Description:** The product shall save snapshots of database state every day and before doing maintenance tasks.
+
+**Rationale:** This will allow the system to be more tolerant of potential errors.
+
+**Fit Criterion:** The product will save snapshots of database state in a manner that will allow for easy recovery.
+
+**Priority:** 1
