@@ -37,15 +37,19 @@ Libraries, Packages, Development Kits, etc. to be used in the proposed implement
  - Spinneret
  - Parenscript
  - Alexandria
+ - Serapeum
  - CSS-lite
  - HTMX
  - Clack/Lack
  - Hunchentoot
  - Woo
- - cl-ppcre
- - Ironclad
- - Datafly
- - SXQL
+ - Fn
+ - Transducers
+ - Plump
+ - Cl-binary-store
+ - Modf
+ - Str
+ - AP5
 
 
 Additional Software/Equipment Needed
@@ -66,9 +70,9 @@ This will allow me to integrate my studies from my other major with my Computer 
 Outline of Future Research Efforts
 ----------------------------------
 
- - Learn more on how to optimize Lisp programs
- - Finish widget capabilities for my framework
- - Build a bunch of sample apps and turn repetitions into abstractions
+ - Further integrate AP5, Ningle, and Spinneret into an MVC web framework.
+ - Work on creating an idiot-proof build system from the framework.
+ - Experiment with further abstractions so the framework is more ergonomic.
 
 Schedule
 --------
@@ -82,7 +86,7 @@ Schedule
     -   April 5 - 
 
 *   Summer 2025 - Independent/Optional Project Work
-    -   June 1 - Get the framework fully complete
+    -   June 1 - Get the framework complete enough for this app.
 
 *   Fall 2026 - CSCI 498
     -   October 20 - 
